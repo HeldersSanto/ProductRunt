@@ -1,0 +1,329 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif}
+* ul{
+    list-style: none;
+}
+* a{
+    text-decoration: none;
+}
+header{
+    background: linear-gradient(100deg, #250f8b 0%, #01f5f5 100%);
+    color: #fff;
+    position: relative;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    padding: 30px 300px 30px 300px;
+    display:flex;
+    justify-content: space-between;
+    height: 20%;
+}
+.menu-desktop ul{
+    display: flex;
+}
+.menu-desktop ul li{
+    margin: 0 15px;
+}
+.menu-desktop ul li a{
+    color: rgba(231, 231, 231, 0.753);
+}
+.apresentacao{
+    height: 40%;
+    padding: 50px 200px 50px 300px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao .texto-inicio{
+    width: 50%;
+}
+.texto-inicio h1, .sobre-titulo h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.apresentacao .ilustracao{
+    width: 60%;
+}
+.ilustracao img{
+    width: 100%;
+}
+.texto-p p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    width: 100%;
+}
+.btn-cta a{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.flecha-align{
+    display: flex;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.flecha{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.459),
+        2px -2px 10px rgba(0, 0, 0, 0.459),
+        -2px 2px 20px rgba(0, 0, 0, 0.459),
+        -2px 2px 20px rgba(0, 0, 0, 0.459);
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.flecha i{
+    font-size: 20px;
+    color: #250f8b;
+}
+.clientes{
+    margin: 80px 0;
+    width: 100%;
+    padding: 0 50px;
+}
+.clientes ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.clientes ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.clientes ul li img{
+    width: 40%;
+}
+#servicos{
+    padding: 0 300px;
+}
+#servicos .servicos-titulo h1{
+    text-align: center;
+    font-weight: 400;
+    font-weight: 22px;
+}
+.servicos-box{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.servicos-single{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+.servicos-single img{
+    width: 70%;
+}
+.servicos-single h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+#time{
+    margin-top: 100px;
+    background-color: #f4f9fd;
+    display: flex;
+    padding: 100px 160px 100px 280px;
+    justify-content: space-between;
+    align-items: center;
+}
+#time .time-info{
+    width: 50%;
+    margin-right: 100px;
+}
+.time-info .time-titulo{
+    padding: 71px 20px 20px;
+    width: 90%;
+    background-image: url('../img/forma.png');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.time-info .time-titulo h1{
+    font-weight: 400;
+    font-weight: 22px;
+    letter-spacing: .13rem;
+}
+.time-ilustracao{
+    width: 50%;
+}
+.time-ilustracao img{
+    width: 100%;
+}
+
+#depoimento{
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.depoimento{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 300px;
+}
+.depoimento-titulo h1{
+    font-weight: 400;
+    font-weight: 22px;
+    letter-spacing: .13rem;
+    margin-bottom: 20px;
+}
+.depoimento-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.depoimento-align{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.depoimento-align h1{
+    text-align: center;
+    width: 10%;
+    font-size: 50px;
+    font-style: italic;
+}
+.depoimento-text > p{
+    padding: 25px 0 10px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.box-contato{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.459),
+        2px -2px 10px rgba(0, 0, 0, 0.459),
+        -2px 2px 20px rgba(0, 0, 0, 0.459),
+        -2px 2px 20px rgba(0, 0, 0, 0.459);
+    width: calc(100% - 600px);
+    background-color: #f4f9fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: rgb(251, 255, 44) 5px solid;
+    border-radius: 5px;
+    position: absolute;
+    height: 300px;
+    bottom: -150px;
+}
+.box-contato h1{
+    font-weight: 400;
+    font-weight: 22px;
+}
+footer{
+    margin: 300px 0 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+}
+footer .links{
+    margin-right: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.links ul{
+    width: 33.3%;
+}
+.links ul li{
+    margin: 20px 0;
+}
+.links ul li a{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+}
+
+/*pagina sobre*/
+#sobre-inicio{
+    margin: 70px 0;
+    width: 100%;
+    padding: 0 300px;
+}
+.titulo{
+    width: 45%;
+}
+.sobre-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sobre-text{
+    width: 50%;
+}
+.sobre-text p{
+    line-height: 23px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 80%;
+}
+.sobre-equipe{
+    width: 85%;
+}
+.sobre-equipe img{
+    width: 100%;
+}
+.depoimento-align img{
+    width: 24%;
+    margin-bottom: 100px;
+}
+
+/*contato*/
+
+#contato{
+    width: 100%;
+    padding: 0 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.contato-info{
+    width: 50%;
+}
+.titulo-contato{
+    width: 80%;
+}
+.titulo-contato h1{
+    font-size: 30px;
+}
+.contato-info .endereco{
+    width: 65%;
+}
+.endereco span{
+    font-size: 14px;
+}
+.endereco div{
+    margin-top: 5px;
+}
+.endereco div span:first-child{
+    font-weight: bold;
+}
+.map{
+    margin-top: 20px;
+    width: 70%;
+}
+.map img{
+    width: 100%;
+}
